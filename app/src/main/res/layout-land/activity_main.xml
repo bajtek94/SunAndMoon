@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned = "false"
+    android:animateLayoutChanges="true"
+    android:orientation="horizontal"
+    android:background="#000"
+    tools:context="com.example.bajtek.sunandmoon.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.5"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/time_fragment"
+        class="com.example.bajtek.sunandmoon.FragmentTimeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/settings"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:background="#ccc"
+        android:onClick="openSettings"
+        android:text="Ustawienia"
+        android:textColor="#222" />
+    <fragment
+        android:id="@+id/sun_fragment"
+        class="com.example.bajtek.sunandmoon.FragmentSun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+</LinearLayout>
+    <fragment
+        android:id="@+id/moon_fragment"
+        class="com.example.bajtek.sunandmoon.FragmentMoon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sunFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/sun_TV_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sun_TV_title"
+        android:background="#ff8844"
+        android:textSize="35dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/sun_TV_sunrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sun_TV_sunrise"
+        android:background="#ff8844"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/sun_TV_sunrise_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time_and_azimuth"
+        android:background="#ff8844"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/sun_TV_sunset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sun_TV_sunset"
+        android:background="#ff8844"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/sun_TV_sunset_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time_and_azimuth"
+        android:background="#ff8844"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/sun_TV_twilight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sun_TV_twilight"
+        android:background="#ff8844"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/sun_TV_twilight_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:background="#ff8844"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/sun_TV_civilTwilight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sun_TV_civilTwilight"
+        android:background="#ff8844"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/sun_TV_civilTwilight_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:background="#ff8844"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+</LinearLayout>

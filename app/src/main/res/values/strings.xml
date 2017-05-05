@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SunAndMoon</string>
+    <string name="sun_TV_title">Informacje o słońcu</string>
+    <string name="sun_TV_sunrise">Wschód słońca</string>
+    <string name="sun_TV_sunset">Zachód słońca</string>
+    <string name="sun_TV_twilight">Zmierzch</string>
+    <string name="time_and_azimuth">Czas i azymut</string>
+    <string name="time">Czas</string>
+    <string name="moon_TV_title">Informacje o księżycu</string>
+    <string name="moon_TV_moonrise">Wschód księżyca</string>
+    <string name="moon_TV_moonset">Zachód księżyca</string>
+    <string name="moon_TV_newmoon">Najbliższy nów księżyca</string>
+    <string name="date">Data</string>
+    <string name="moon_TV_full">Najbliższa pełnia księżyca</string>
+    <string name="moon_TV_phase">Faza księżyca</string>
+    <string name="percents">Procenty</string>
+    <string name="moon_TV_synodic">Dzień miesiąca synodycznego</string>
+    <string name="day">Dzień</string>
+    <string name="localization">Lokalizacja</string>
+    <string name="sun_TV_civilTwilight">Świt cywilny</string>
+    <string name="latitude">Szerokość geograficzna</string>
+    <string name="longitude">Długość geograficzna</string>
+    <string name="refreshTime">Czas odświeżania (w minutach)</string>
+    <string name="save">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+</resources>

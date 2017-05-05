@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/moon_TV_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moon_TV_title"
+        android:background="#bcf"
+        android:textSize="25dp"
+        android:textAlignment="center" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/moon_TV_moonrise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/moon_TV_moonrise"
+                android:background="#bcf"
+                android:textSize="11dp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/moon_TV_moonrise_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:background="#bcf"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/moon_TV_moonset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/moon_TV_moonset"
+                android:background="#bcf"
+                android:textSize="11dp"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/moon_TV_moonset_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:background="#bcf"
+                android:textSize="20dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/moon_TV_newmoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moon_TV_newmoon"
+        android:background="#bcf"
+        android:textSize="11dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/moon_TV_newmoon_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:background="#bcf"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/moon_TV_full"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moon_TV_full"
+        android:background="#bcf"
+        android:textSize="11dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/moon_TV_full_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:background="#bcf"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/moon_TV_phase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moon_TV_phase"
+        android:background="#bcf"
+        android:textSize="11dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/moon_TV_phase_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percents"
+        android:background="#bcf"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/moon_TV_synodic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/moon_TV_synodic"
+        android:background="#bcf"
+        android:textSize="11dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/moon_TV_synodic_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/day"
+        android:background="#bcf"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+</LinearLayout>
