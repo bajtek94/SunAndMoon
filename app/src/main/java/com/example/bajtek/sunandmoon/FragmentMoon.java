@@ -78,16 +78,29 @@ public class FragmentMoon extends Fragment {
     }
     private void setNewmoon(View view, AstroCalculator astroCalculator) {
         AstroDateTime astroDateTime = astroCalculator.getMoonInfo().getNextNewMoon();
-        Date date = new Date();
-        Time timeOfNewmoon = new Time(astroDateTime.getHour(), astroDateTime.getMinute(), astroDateTime.getSecond());
-        long timeToNewmoon = timeOfNewmoon.getTime() - date.getTime();
-        Time time = new Time(timeToNewmoon);
+//        Date date = new Date();
+//        Time timeOfNewmoon = new Time(astroDateTime.getHour(), astroDateTime.getMinute(), astroDateTime.getSecond());
+//        long timeToNewmoon = timeOfNewmoon.getTime() - date.getTime();
+//        Time time = new Time(timeToNewmoon);
 
-//        Calendar cal = Calendar.getInstance();
-//
-//
-//        long different = timeOfNewmoon.getTime() - cal.getTime().getTime();
-//
+//        Calendar calendar = Calendar.getInstance();
+//        TimeZone timeZone = TimeZone.getDefault();
+//        Date now = new Date();
+//        int offset = timeZone.getOffset(now.getTime()) / 1000;
+//        AstroDateTime actualData = new AstroDateTime(calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
+//                calendar.get(Calendar.DAY_OF_MONTH), calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE),
+//                calendar.get(Calendar.SECOND), offset, timeZone.useDaylightTime());
+        //String time = formatToTwoDigits(astroDateTime.getHour()) + ":" + formatToTwoDigits(astroDateTime.getMinute()) + ":" + formatToTwoDigits(astroDateTime.getSecond());
+        //((TextView)view.findViewById(R.id.time_TV_time_value)).setText(time);
+
+//        AstroDateTime difference = actualData;
+//        difference.setDay(actualData.getDay()-actualData.getDay());
+//        difference.setDay(actualData.getMonth()-actualData.getMonth());
+//        difference.setDay(actualData.getYear()-actualData.getYear());
+//        difference.setDay(actualData.getHour()-actualData.getHour());
+//        difference.setDay(actualData.getMinute()-actualData.getMinute());
+//        difference.setDay(actualData.getSecond()-actualData.getSecond());
+
 //        long secondsInMilli = 1000;
 //        long minutesInMilli = secondsInMilli * 60;
 //        long hoursInMilli = minutesInMilli * 60;
@@ -105,12 +118,13 @@ public class FragmentMoon extends Fragment {
 //        long elapsedSeconds = different / secondsInMilli;
 
 
-        ((TextView)view.findViewById(R.id.moon_TV_newmoon_value)).setText(formatToTwoDigits(astroDateTime.getHour()) + ":" + formatToTwoDigits(astroDateTime.getMinute()) + ":" + formatToTwoDigits(astroDateTime.getSecond()));
+        ((TextView)view.findViewById(R.id.moon_TV_newmoon_value)).setText(formatToTwoDigits(astroDateTime.getDay()) + "." + formatToTwoDigits(astroDateTime.getMonth()) + "." + formatToTwoDigits(astroDateTime.getYear()) + "r., " + formatToTwoDigits(astroDateTime.getHour()) + ":" + formatToTwoDigits(astroDateTime.getMinute()) + ":" + formatToTwoDigits(astroDateTime.getSecond()));
+        //((TextView)view.findViewById(R.id.moon_TV_newmoon_value)).setText(formatToTwoDigits(difference.getYear()) + "y " + formatToTwoDigits(difference.getMonth()) + "m " + formatToTwoDigits(difference.getDay()) + "d " + formatToTwoDigits(actualData.getMinute()) + "m");
         //((TextView)view.findViewById(R.id.moon_TV_newmoon_value)).setText(elapsedDays + "d " + elapsedHours + "h " + elapsedMinutes + "m" );
     }
     private void setFullmoon(View view, AstroCalculator astroCalculator) {
         AstroDateTime astroDateTime = astroCalculator.getMoonInfo().getNextFullMoon();
-        ((TextView)view.findViewById(R.id.moon_TV_full_value)).setText(formatToTwoDigits(astroDateTime.getHour()) + ":" + formatToTwoDigits(astroDateTime.getMinute()) + ":" + formatToTwoDigits(astroDateTime.getSecond()));
+        ((TextView)view.findViewById(R.id.moon_TV_full_value)).setText(formatToTwoDigits(astroDateTime.getDay()) + "." + formatToTwoDigits(astroDateTime.getMonth()) + "." + formatToTwoDigits(astroDateTime.getYear()) + "r., " + formatToTwoDigits(astroDateTime.getHour()) + ":" + formatToTwoDigits(astroDateTime.getMinute()) + ":" + formatToTwoDigits(astroDateTime.getSecond()));
     }
     private void setPhase(View view, AstroCalculator astroCalculator) {
         double moonPhase = astroCalculator.getMoonInfo().getIllumination();
@@ -118,8 +132,8 @@ public class FragmentMoon extends Fragment {
         ((TextView)view.findViewById(R.id.moon_TV_phase_value)).setText(String.format("%.2f", moonPhase) + "%");
     }
     private void setSynodicDay(View view, AstroCalculator astroCalculator) {
-        ///AstroDateTime astroDateTime = astroCalculator.getMoonInfo()....;
-        ((TextView)view.findViewById(R.id.moon_TV_synodic_value)).setText("6 dzień");
+        Double moonAge = astroCalculator.getMoonInfo().getAge();
+        ((TextView)view.findViewById(R.id.moon_TV_synodic_value)).setText(moonAge.intValue() + " dzień");
         ///((TextView)view.findViewById(R.id.moon_TV_synodic_value)).setText(formatToTwoDigits(astroDateTime.getHour()) + ":" + formatToTwoDigits(astroDateTime.getMinute()) + ":" + formatToTwoDigits(astroDateTime.getSecond()));
     }
     private  void setMoonData() {
