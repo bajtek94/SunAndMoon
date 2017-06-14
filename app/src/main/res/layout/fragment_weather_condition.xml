@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.politechnika.app.astroweather.fragments.WeatherConditionFragment">
+
+    <TextView
+        android:id="@+id/dayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/day"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@+id/weatherIconImageView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"/>
+
+    <TextView
+        android:id="@+id/highTemperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dayTextView"
+        android:layout_below="@+id/dayTextView"
+        android:layout_marginEnd="15dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="1dp"
+        android:text="@string/high"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/lowTemperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dayTextView"
+        android:layout_below="@+id/dayTextView"
+        android:layout_marginLeft="15dp"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="1dp"
+        android:text="@string/low"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/background_dark" />
+
+    <ImageView
+        android:id="@+id/weatherIconImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon_na"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/condition_icon"
+        android:adjustViewBounds="true" />
+
+</RelativeLayout>

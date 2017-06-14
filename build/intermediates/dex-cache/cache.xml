@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\385095c3ebb11e8a3b783c8f3c131f94c22b95e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_1f11a95b29975b9f3206dc10e000218cbc643f99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\f6ae4115605079c363ae8f1ee52740b8da260aa0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_e59846dd3dcdb2b6e0d1d4117a0e47b5ce0d1b6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\studia_sem6\PAM\SunAndMoon_zad3\SunAndMoon\app\lib\gson-2.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="D:\studia_sem6\PAM\SunAndMoon_zad3\SunAndMoon\app\build\intermediates\pre-dexed\debug\gson-2.8.1_7d706c08fc955e88a5f61d3ac7ad8fc873f39017.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\13796ad27cbcfccf71e5f207986df203a2534524\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_339c499ee7b86720b069e9168c0b1c496d6aaf25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\5b7e9cf2aba2d32ead2f7926a534bab0f7daeec2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_c1ad6a9266a578e41f3410df3f7b70066fff883f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\lib\astrocalculator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72ab0f44b65a7732286d24fd30e9392db95cc171">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\astrocalculator_6c2f09bc9561871e2fe42a52b0fc53a5a0a0c9da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_0e07dde531a5cc6a17f4736bfd6933bb5e2341fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\studia_sem6\PAM\SunAndMoon_zad3\SunAndMoon\app\lib\astrocalculator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72ab0f44b65a7732286d24fd30e9392db95cc171">
+        <dex dex="D:\studia_sem6\PAM\SunAndMoon_zad3\SunAndMoon\app\build\intermediates\pre-dexed\debug\astrocalculator_62f7406a0d7f5bcbd8df39fc834530298389f2e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\a7a92db014a993ca5062cba04a049e7ce7983dd2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_764c4c24a6d26bb8e893ead33792f3af7233f293.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\215cd129a7ec02ae987d3e0a9446b050487d67b3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_c010b8e42def42ebf1ac0cfc8d9f3e5191f5ae09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\687e32c0f8c04d4225e77ea1381beb715c2afdab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_510457a9994297de89afa5e11b756c5e060584c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\9d2d04a854385e662ac5d960e6369ddff1a193a6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_de9b5a91f6abba37c0b8ef1f2f77ee6b071d43e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\lib\gson-2.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\gson-2.8.1_c96fa60e8bf3c57e28c3256b853d2c8688ba3730.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Bajtek\.android\build-cache\6b56d296c6d99d72aa7cded79191638e250ae583\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Bajtek\Downloads\AstroWeather-v2-master\app\build\intermediates\pre-dexed\debug\classes_41ae112d2171d1ca7fcac911232578e102073ad4.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:astroweather="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favourites"
+        android:icon="@android:drawable/btn_star"
+        android:title="fav"
+        astroweather:showAsAction="always" />
+    <item
+        android:id="@+id/refresh"
+        android:icon="@android:drawable/stat_notify_sync"
+        android:title="refresh"
+        astroweather:showAsAction="always" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_action_name"
+        android:title="@string/settings"
+        astroweather:showAsAction="always" />
+</menu>
